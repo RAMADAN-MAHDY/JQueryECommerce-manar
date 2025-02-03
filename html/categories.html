@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الفئات - متجري</title>
+    <link rel="stylesheet" href="../css/categories.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ✅ Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">متجري</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="categories.html">التصنيفات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product.html">المنتجات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ✅ قائمة الفئات -->
+    <div class="container mt-5">
+        <h2 class="text-center">التصنيفات</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="product.html?category=electronics" class="category-box">
+                    <img src="https://th.bing.com/th/id/R.2d9250db949a3d621e2728031395d4e7?rik=WfXlufcUu83Yeg&pid=ImgRaw&r=0" alt="إلكترونيات">
+                    <h3>إلكترونيات</h3>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="product.html?category=fashion" class="category-box">
+                    <img src="https://th.bing.com/th/id/R.845ed04e3db366a01fe0cbb44a907a32?rik=XES%2fHfMLoNWBrg&pid=ImgRaw&r=0" alt="أزياء">
+                    <h3>أزياء</h3>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="product.html?category=home" class="category-box">
+                    <img src="https://magment.com/wp-content/uploads/2015/11/Contemporary-Home-Decor-16.jpg" alt="أثاث">
+                    <h3>أثاث منزلي</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ✅ Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
